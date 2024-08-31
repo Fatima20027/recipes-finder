@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Your Recipe</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="meal-wrapper">
+      <div class="meal-search">
+        <h2 class="title">Create Tasty Meals with What You Have</h2>
+        <p class="text">Unlock a world of culinary possibilities—simply enter the ingredients you have on hand, and we’ll serve up delicious recipes tailored just for you!</p>
+      </div>
+    </div>
+
+    <div class="input-wrapper">
+      <button class="btn-search"><i class='bx bx-search-alt-2' id="search-button"></i></button>
+      <input type="text" name="search" placeholder="Search ingredient.." class="search-field" id="search-input">
+    </div>
+    <h2 class="txt">Your Search Results :</h2>
+    
+    <!-- Add the meal results container -->
+    <div id="meal"></div> 
+
+  </div>
+
+  <div class="meal-details">
+    <div class="close-btn" id="close-btn">
+      <button>
+        <i class="fa fa-close"></i>
+      </button>
+    </div>
+    <div class="meal-details-content">
+      <h2 class="recipe-name">Meal Name</h2>
+      <p class="recipe-category">Category Name</p>
+      <div class="instructions">
+        <h2>Instructions:</h2>
+        <p>Lorem ipsum instructions...</p>
+        <img src="2bcc1b1e2e8fa77b0999861098e21840.jpg" alt="" class="img-instru">
+        <div class="video">
+          <a href="#">Watch Video</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
