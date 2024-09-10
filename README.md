@@ -6,11 +6,10 @@ Find Your Recipe is a web application that helps users discover meal recipes bas
 - [Live Demo](#live-demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
-- [License](#license)
+- [Authors](#Authors)
 
 ## Live Demo
 You can check out the live version of the app here: [Find Your Recipe](https://recipefinde.netlify.app/)
@@ -35,17 +34,6 @@ You can check out the live version of the app here: [Find Your Recipe](https://r
 - **Deployment**:
   - [Netlify](https://www.netlify.com/) for hosting
 
-## Installation
-To run this project locally, follow these steps:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/recipe-finder.git
-    cd recipe-finder
-    ```
-
-2. **Open the `index.html` file** in your web browser:
-    You can use any modern web browser to open the `index.html` file, or you can use a local server like Live Server for a better development experience.
 
 ## Usage
 1. Open the app in your browser or visit the [live demo](https://find-your-recipee.netlify.app/).
@@ -60,10 +48,17 @@ The app is designed to work well on both desktop and mobile devices. It has been
 ```bash
 recipe-finder/
 │
-├── images/             # Folder for storing images
-├── js/                 # JavaScript files
-│   ├── script.js       # Main JS file
-├── styles/             # CSS stylesheets
-│   ├── style.css       # Main CSS file
-├── index.html          # Main HTML file
-├── README.md           # Readme file (you are here)
+├── images/            
+├── js/                 
+│   ├── script.js       
+├── styles/           
+│   ├── style.css     
+├── index.html  
+├── README.md         
+
+
+## Authors
+
+Fatima Hailou <fatima.hailou@icloud.com>
+
+
