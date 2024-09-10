@@ -264,6 +264,14 @@
     
   }
 
+  .search-field:focus {
+    width: 300px;
+    }
+
+  .btn-search:focus ~ .search-field {
+    width: 300px;
+    }
+
   
   
 }
