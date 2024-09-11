@@ -106,6 +106,7 @@
   color: #e0a840;
   background-color: transparent;
   padding: 0;
+  pointer-events: auto;
 }
 
 .btn-search:focus ~ .search-field {
