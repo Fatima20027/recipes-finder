@@ -109,7 +109,7 @@
   pointer-events: auto;
 }
 
-.btn-search:focus ~ .search-field {
+.btn-search:focus-within + .search-field {
   width: 400px;
   border-radius: 0px;
   background-color: transparent;
