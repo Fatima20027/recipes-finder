@@ -12,7 +12,7 @@ Find Your Recipe is a web application that helps users discover meal recipes bas
 - [Authors](#Authors)
 
 ## Live Demo
-You can check out the live version of the app here: [Find Your Recipe](https://recipefinde.netlify.app/)
+You can check out the live version of the app here: [Find Your Recipe](https://find-your-recipee.netlify.app/)
 
 ## Features
 - **Ingredient Search**: Enter ingredients you have, and get a list of meals that you can prepare.
