@@ -51,7 +51,7 @@
 }
 
 header {
-  padding: 15px;
+  padding: 10px;
   background-color: #E1D3B6;
   position: sticky;
   z-index: 1000;
@@ -151,32 +151,46 @@ header {
   height: 5%;
 }
 
-.filter-wrapper {
+.filter-wrapper  button{
   font-size: 25px;
-  margin-top: 80px;
-  margin-bottom: 50px;
   display: flex;
-  gap: 5%;
-  
 }
+
+.filter-wrapper {
+  margin-top: 5%;
+}
+
+
 
 .filters {
   display: flex;
   list-style: none;
+  gap: 10%;
+  
+  
+  
   
   
 }
 
-.filters a {
+.filters button {
   text-decoration: none;
   color: #e1d3b6;
-  padding: 0 70px;
   position: relative;
   display: inline-block;
+  border: none;
+  background-color: transparent;
+  font-family: "Lobster Two", sans-serif;
+  bottom: 40%;
+  font-size: 25px;
+  
+  
 
 }
 
-.filters a::after{
+
+
+.filters button::after{
   content: "";
   position: absolute;
   background-color: #e0a840;
@@ -184,18 +198,69 @@ header {
   height: 0;
   border-radius: 50px;
   transition: 0.3s;
-  border-radius: 50px;
   display: flex;
   left: 50%;
+  
+  
 }
 
 
-.filters a:hover::after,
-.filters a.active::after, 
-.filters a:focus::after {
+
+.filters button:hover::after,
+.filters button.active::after, 
+.filters button:focus::after {
   width: 8px;
   height: 8px;
 }
+
+.filters a{
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 25px;
+  color: #dfcba4;
+  
+}
+
+.filters .filter-list {
+  background-color: #111A1F;
+  position: absolute;
+  min-width: 100px;
+  max-height: 200px;
+  box-shadow: 2px 2px 10px #111A1F;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: none;
+}
+
+.filters .filter-list::-webkit-scrollbar{
+  width: 5px;
+  
+  
+}
+.filters .filter-list::-webkit-scrollbar-thumb {
+  background: rgb(32, 34, 34);
+  border-radius: 10px;
+  opacity: 0.5
+
+}
+
+.filters li:hover .filter-list {
+  display: block;
+}
+
+.filter-list a:hover {
+  background-color: #1a252b;
+
+}
+
+.filters li.active, 
+.filters li:focus {
+  display: block;
+}
+
+
+
 
 
   .container {
@@ -642,6 +707,16 @@ header {
   padding: 10px;
   margin-bottom: 10px;
   font-size: 16px;
+  border: none;
+  outline: none;
+  
+
+}
+
+.input-contact input:focus,
+.msg textarea {
+  border: 1px solid #e0a840;
+  
 }
 
 .msg textarea::placeholder {
@@ -747,7 +822,6 @@ header {
     height: 2%;
     position: relative;
     left: -36%;
-    cursor: pointer;
   }
 
 

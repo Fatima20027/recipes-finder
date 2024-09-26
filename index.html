@@ -22,7 +22,7 @@
   <header>
     
     <nav class="navi">
-      <img src="image/find_your_recipe-removebg-preview.png"  class="img-icon" alt="logo" >
+      <img src="image/find_your_recipe-removebg-preview.png"  class="img-icon" alt="logo">
       <ol>
         <li><a href="index.html">Home</a></li>
         <li class="about-lines"><a href="about.html">About</a></li>
@@ -52,11 +52,35 @@
         <button class="btn-search" id="search-button"><i class='bx bx-search-alt-2' onclick="getMealList()"></i></button>
       </div>
       <div class="filter-wrapper">
-        <i class='bx bx-filter' style="color: #e0a840;"></i>
+        
         <ul class="filters">
-          <li class="category"><a href="#">Category</a></li>
-          <li class="ingre"><a href="#">Ingredient</a></li>
-          <li class="area"><a href="#">Area</a></li>
+          <i class='bx bx-filter' style="color: #e0a840; font-size: 25px;"></i>
+
+
+          <li class="category">
+            <button href="#" class="category-button">Category</button>
+            <div class="filter-list" id="filter-category">
+              
+              
+              
+            </div>
+          </li>
+          <li class="ingre">
+            <button href="#">Ingredient</button>
+            <div class="filter-list" id="filter-ingredient">
+              
+              
+              
+            </div>
+          </li>
+          <li class="area">
+            <button href="#">Area</button>
+            <div class="filter-list" id="filter-area">
+              
+              
+              
+            </div>
+          </li>
         </ul>
         
       </div>
@@ -151,5 +175,6 @@
   <script src="js/nav-focus.js"></script>
   <script src="js/script.js"></script>
   <script src="js/menu.js"></script>
+  <script src="js/filter.js"></script>
 </body>
 </html>
